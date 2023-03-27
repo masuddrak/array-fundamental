@@ -1,3 +1,10 @@
-for(let i=0; i<5; i++){
-    console.log('hello world')
+
+let human={
+    name:'alia vat',
+    age:25,
+    friend:['sakib','tina','mina'],
+    country:'bangladesh'
+}
+for(let i=0; i<human.friend.length; i++){
+    console.log(human.friend[i])
 }
