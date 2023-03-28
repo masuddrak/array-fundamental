@@ -21,4 +21,13 @@ function room_offer_lilst_cheker(days) {
 }
 
 const result = room_offer_lilst_cheker(23)
-console.log(result)
+// console.log(result)
+
+const number=[1,2,3,4,9,5,8,10];
+let new_number=[]
+for(let i=0;i<number.length; i++){
+    if(number[i]>3){
+        new_number.push(number[i])
+    }
+}
+console.log(new_number.length)
